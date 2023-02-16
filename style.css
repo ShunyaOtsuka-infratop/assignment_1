@@ -12,7 +12,10 @@ header {
 main {
   width: 960px;
   margin: 50px auto;
-  display: flex;
+}
+
+.step {
+  display:flex;
 }
 
 .step-box {
@@ -68,13 +71,13 @@ footer {
 /* タブレット縦置きサイズ（768px）以下の際に適用される設定 */
 @media screen and (max-width: 768px) {
   header {
-    width: 100%;
+    /*width: 100%;*/
   }
   main {
     width:100%;
-    display:block;
   }
   .step {
+    display:block;
     margin-left: 5%;
     margin-right: 5%;
   }
